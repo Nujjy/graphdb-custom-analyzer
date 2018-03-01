@@ -1,14 +1,15 @@
 package com.ontotext.graphdb.lucene;
 
+import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import org.apache.lucene.analysis.*;
 import org.apache.lucene.analysis.core.StopAnalyzer;
 import org.apache.lucene.analysis.en.KStemFilter;
 import org.apache.lucene.analysis.hunspell.Dictionary;
 import org.apache.lucene.analysis.hunspell.HunspellStemFilter;
 import org.apache.lucene.analysis.miscellaneous.ASCIIFoldingFilter;
+import org.apache.lucene.analysis.miscellaneous.RemoveDuplicatesTokenFilter;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.standard.StandardFilter;
-import org.apache.lucene.analysis.standard.StandardTokenizer;
 import org.apache.lucene.analysis.synonym.SynonymGraphFilter;
 import org.apache.lucene.analysis.synonym.SynonymMap;
 import org.apache.lucene.analysis.synonym.WordnetSynonymParser;
@@ -24,10 +25,9 @@ public class CustomAnalyzer extends Analyzer {
     protected TokenStreamComponents createComponents(String fieldName) {
         try {
 
-            //MaxentTagger posTagger = EnglishLemmaAnalyzer.makeTagger("edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger");
-            //final Tokenizer source = new EnglishLemmaTokenizer(reader, posTagger);
+            MaxentTagger posTagger = EnglishLemmaAnalyzer.makeTagger("edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger");
+            final Tokenizer tokenizer = new EnglishLemmaTokenizer(posTagger);
 
-            Tokenizer tokenizer = new StandardTokenizer();
             TokenStream tokenStream = tokenizer;
 
             tokenStream = new StandardFilter(tokenStream);
@@ -46,15 +46,16 @@ public class CustomAnalyzer extends Analyzer {
             InputStream dictionaryStream = new FileInputStream(dictionaryFile);
             InputStream affixStream = new FileInputStream(affixFile);
 
-
             Dictionary dictionary = new Dictionary(new RAMDirectory(),"tmpDic",affixStream, dictionaryStream);
 
-            SynonymMap mySynonymMap = buildSynonym();
+            //SynonymMap mySynonymMap = buildSynonym();
+            //tokenStream = new SynonymGraphFilter(tokenStream,mySynonymMap,true);
 
-            tokenStream = new SynonymGraphFilter(tokenStream,mySynonymMap,true);
             tokenStream = new HunspellStemFilter(tokenStream, dictionary);
             tokenStream = new StopFilter(tokenStream, StopAnalyzer.ENGLISH_STOP_WORDS_SET);
+            tokenStream = new RemoveDuplicatesTokenFilter(tokenStream);
             return new TokenStreamComponents(tokenizer, tokenStream);
+
         } catch (Exception e) {
             e.printStackTrace();
         }

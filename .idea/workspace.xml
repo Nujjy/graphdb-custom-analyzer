@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6340ac9-f140-4395-8dfd-b162422bcf33" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_10_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_efficient_java_matrix_library_ejml_0_23.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_io7m_xom_xom_1_2_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_jollyday_jollyday_0_4_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__edu_stanford_nlp_stanford_corenlp_3_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__edu_stanford_nlp_stanford_corenlp_models_3_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_json_javax_json_api_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_xml_bind_jaxb_api_2_2_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xalan_xalan_2_7_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xerces_xercesImpl_2_8_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__xml_apis_xml_apis_2_0_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaTokenizer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzerTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/custom-analyzer_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/custom-analyzer_main.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/custom-analyzer_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/custom-analyzer_test.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/CustomAnalyzerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/CustomAnalyzerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -56,8 +78,8 @@
       <file leaf-file-name="CustomAnalyzer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="58" />
+            <state relative-caret-position="345">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,24 +87,83 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomAnalyzer2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer2.java">
+      <file leaf-file-name="Analyzer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/6.6.1/d5f5ae2919546b8b98aef68f85cc5b8faf783aec/lucene-core-6.6.1-sources.jar!/org/apache/lucene/analysis/Analyzer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="34">
+              <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnglishLemmaTokenizer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaTokenizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2679#2680#0" expanded="true" />
+                <element signature="e#2738#2739#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxentTagger.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.stanford.nlp/stanford-corenlp/3.6.0/81ba0c6f5fdd6e0441d18388abfff0f407d4aea2/stanford-corenlp-3.6.0-sources.jar!/edu/stanford/nlp/tagger/maxent/MaxentTagger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="1079" column="0" lean-forward="false" selection-start-line="1079" selection-start-column="0" selection-end-line="1079" selection-end-column="0" />
+              <folding>
+                <element signature="e#50612#50613#0" expanded="true" />
+                <element signature="e#50650#50651#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tokenizer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/6.6.1/d5f5ae2919546b8b98aef68f85cc5b8faf783aec/lucene-core-6.6.1-sources.jar!/org/apache/lucene/analysis/Tokenizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1183">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PTBLexer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.stanford.nlp/stanford-corenlp/3.6.0/81ba0c6f5fdd6e0441d18388abfff0f407d4aea2/stanford-corenlp-3.6.0-sources.jar!/edu/stanford/nlp/process/PTBLexer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="27878" column="0" lean-forward="false" selection-start-line="27878" selection-start-column="0" selection-end-line="27878" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnglishLemmaAnalyzer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnglishLemmaAnalyzerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,64 +171,11 @@
       <file leaf-file-name="CustomAnalyzerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/CustomAnalyzerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="267">
+              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilesystemResourceLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/6.6.1/7a05bd86400a0cbfe029fd3240f189c80f94f602/lucene-analyzers-common-6.6.1-sources.jar!/org/apache/lucene/analysis/util/FilesystemResourceLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynonymMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/6.6.1/7a05bd86400a0cbfe029fd3240f189c80f94f602/lucene-analyzers-common-6.6.1-sources.jar!/org/apache/lucene/analysis/synonym/SynonymMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="205" column="16" lean-forward="false" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SynonymGraphFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/6.6.1/7a05bd86400a0cbfe029fd3240f189c80f94f602/lucene-analyzers-common-6.6.1-sources.jar!/org/apache/lucene/analysis/synonym/SynonymGraphFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="170" column="9" lean-forward="false" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HunspellStemFilter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/6.6.1/7a05bd86400a0cbfe029fd3240f189c80f94f602/lucene-analyzers-common-6.6.1-sources.jar!/org/apache/lucene/analysis/hunspell/HunspellStemFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="62" column="55" lean-forward="false" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
-              <folding>
-                <element signature="e#2663#2664#0" expanded="true" />
-                <element signature="e#2702#2703#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -157,8 +185,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -344,8 +372,8 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4559314824000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="44292923" />
+        <entry key="$PROJECT_DIR$" value="4559333247000" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="405414767" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="975608090" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1904788657" />
       </map>
@@ -465,19 +493,23 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/example/CustomAnalyzerFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/CustomAnalyzer.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/CustomAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/CustomAnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer2.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/CustomAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/EnglishLemmaTokenizerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaTokenizer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="23" />
-    <option name="width" value="1401" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="44" />
+    <option name="y" value="291" />
+    <option name="width" value="1393" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -520,6 +552,53 @@
             </path>
             <path>
               <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="custom-analyzer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="custom-analyzer" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -537,6 +616,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ontotext.graphdb.lucene" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ontotext.graphdb.lucene" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -559,7 +641,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.custom-analyzer [jar]">
+  <component name="RunManager" selected="JUnit.CustomAnalyzerTest.testPrintMessage">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -592,24 +674,6 @@
         <option name="taskNames">
           <list>
             <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
-    <configuration name="custom-analyzer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -664,6 +728,31 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ontotext.graphdb.lucene" />
       <option name="MAIN_CLASS_NAME" value="com.ontotext.graphdb.lucene.CustomAnalyzerTest" />
+      <option name="METHOD_NAME" value="testPrintMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="EnglishLemmaTokenizerTest.testPrintMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.ontotext.graphdb.lucene.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="custom-analyzer_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ontotext.graphdb.lucene" />
+      <option name="MAIN_CLASS_NAME" value="com.ontotext.graphdb.lucene.EnglishLemmaTokenizerTest" />
       <option name="METHOD_NAME" value="testPrintMessage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -738,24 +827,24 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.custom-analyzer [build]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.custom-analyzer [assemble]" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CustomAnalyzerTest.testPrintMessage" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.custom-analyzer [jar]" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.custom-analyzer [clean]" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.custom-analyzer [assemble]" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CustomAnalyzerTest.testPrintMessage" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.custom-analyzer [jar]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.custom-analyzer [clean]" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EnglishLemmaTokenizerTest.testPrintMessage" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.custom-analyzer [clean]" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.custom-analyzer [jar]" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CustomAnalyzerTest.testPrintMessage" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.custom-analyzer [assemble]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.custom-analyzer [build]" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CustomAnalyzerTest.testPrintMessage" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.EnglishLemmaTokenizerTest.testPrintMessage" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.custom-analyzer [clean]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.custom-analyzer [jar]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.custom-analyzer [assemble]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1519836726748" />
+    <option name="lastUpdateTimestamp" value="1519855134071" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -782,24 +871,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.02.28 at 13h 08m 58s.xml">
+    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.03.01 at 08h 58m 07s.xml">
       <configuration name="CustomAnalyzerTest.testPrintMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.02.28 at 13h 10m 48s.xml">
+    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.03.01 at 08h 58m 42s.xml">
       <configuration name="CustomAnalyzerTest.testPrintMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.02.28 at 13h 11m 14s.xml">
+    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.03.01 at 08h 59m 07s.xml">
       <configuration name="CustomAnalyzerTest.testPrintMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.02.28 at 13h 15m 33s.xml">
+    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.03.01 at 08h 59m 19s.xml">
       <configuration name="CustomAnalyzerTest.testPrintMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.02.28 at 13h 15m 54s.xml">
+    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.03.01 at 08h 59m 38s.xml">
       <configuration name="CustomAnalyzerTest.testPrintMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomAnalyzerTest_testPrintMessage - 2018.03.01 at 08h 59m 47s.xml">
+      <configuration name="CustomAnalyzerTest.testPrintMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnglishLemmaTokenizerTest_testPrintMessage - 2018.03.01 at 08h 56m 55s.xml">
+      <configuration name="EnglishLemmaTokenizerTest.testPrintMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnglishLemmaTokenizerTest_testPrintMessage - 2018.03.01 at 08h 57m 19s.xml">
+      <configuration name="EnglishLemmaTokenizerTest.testPrintMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnglishLemmaTokenizerTest_testPrintMessage - 2018.03.01 at 08h 57m 31s.xml">
+      <configuration name="EnglishLemmaTokenizerTest.testPrintMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EnglishLemmaTokenizerTest_testPrintMessage - 2018.03.01 at 08h 57m 42s.xml">
+      <configuration name="EnglishLemmaTokenizerTest.testPrintMessage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="23" width="1401" height="877" extended-state="0" />
+    <frame x="43" y="23" width="1401" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -809,9 +914,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25165564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -822,7 +927,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39897698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -837,7 +942,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/6.6.1/d5f5ae2919546b8b98aef68f85cc5b8faf783aec/lucene-core-6.6.1-sources.jar!/org/apache/lucene/analysis/Tokenizer.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -906,8 +1019,8 @@
         <state relative-caret-position="173">
           <caret line="62" column="55" lean-forward="false" selection-start-line="62" selection-start-column="55" selection-end-line="62" selection-end-column="55" />
           <folding>
-            <element signature="e#2663#2664#0" expanded="true" />
-            <element signature="e#2702#2703#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="false" />
+            <element signature="e#2702#2703#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -936,24 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/CustomAnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/en_US/en_US.aff">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -962,31 +1057,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="29" column="58" lean-forward="true" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/6.6.1/d5f5ae2919546b8b98aef68f85cc5b8faf783aec/lucene-core-6.6.1-sources.jar!/org/apache/lucene/analysis/standard/StandardTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="154" column="47" lean-forward="false" selection-start-line="154" selection-start-column="47" selection-end-line="154" selection-end-column="47" />
+          <folding>
+            <element signature="e#5041#5042#0" expanded="true" />
+            <element signature="e#5057#5058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.stanford.nlp/stanford-corenlp/3.6.0/81ba0c6f5fdd6e0441d18388abfff0f407d4aea2/stanford-corenlp-3.6.0-sources.jar!/edu/stanford/nlp/tagger/maxent/MaxentTagger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="1079" column="0" lean-forward="false" selection-start-line="1079" selection-start-column="0" selection-end-line="1079" selection-end-column="0" />
+          <folding>
+            <element signature="e#50612#50613#0" expanded="true" />
+            <element signature="e#50650#50651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/6.6.1/d5f5ae2919546b8b98aef68f85cc5b8faf783aec/lucene-core-6.6.1-sources.jar!/org/apache/lucene/analysis/Analyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/6.6.1/d5f5ae2919546b8b98aef68f85cc5b8faf783aec/lucene-core-6.6.1-sources.jar!/org/apache/lucene/analysis/Tokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1183">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/edu.stanford.nlp/stanford-corenlp/3.6.0/81ba0c6f5fdd6e0441d18388abfff0f407d4aea2/stanford-corenlp-3.6.0-sources.jar!/edu/stanford/nlp/process/PTBLexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27878" column="0" lean-forward="false" selection-start-line="27878" selection-start-column="0" selection-end-line="27878" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/CustomAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/CustomAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/EnglishLemmaTokenizerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="37" column="3" lean-forward="false" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ontotext/graphdb/lucene/EnglishLemmaTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2679#2680#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
